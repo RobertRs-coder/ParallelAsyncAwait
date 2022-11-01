@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    //Redraw UI when it changes
     @StateObject private var viewModel = TestViewModel()
     
     var body: some View {

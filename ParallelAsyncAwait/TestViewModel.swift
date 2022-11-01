@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 final class TestViewModel: ObservableObject {
+    
     func loadImage(index: Int) async throws -> Image {
         let imageURL = URL(string: "https://i.blogs.es/f7b0ed/steve-jobs/1366_2000.jpg")!
         //Create request

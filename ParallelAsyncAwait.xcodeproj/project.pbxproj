@@ -11,6 +11,7 @@
 		23300CAF291188C30053B709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23300CAE291188C30053B709 /* ContentView.swift */; };
 		23300CB1291188C40053B709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23300CB0291188C40053B709 /* Assets.xcassets */; };
 		23300CB4291188C40053B709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23300CB3291188C40053B709 /* Preview Assets.xcassets */; };
+		23300CBB291188E30053B709 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23300CBA291188E30053B709 /* TestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		23300CAE291188C30053B709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23300CB0291188C40053B709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23300CB3291188C40053B709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23300CBA291188E30053B709 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				23300CAC291188C30053B709 /* ParallelAsyncAwaitApp.swift */,
 				23300CAE291188C30053B709 /* ContentView.swift */,
+				23300CBA291188E30053B709 /* TestViewModel.swift */,
 				23300CB0291188C40053B709 /* Assets.xcassets */,
 				23300CB2291188C40053B709 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23300CBB291188E30053B709 /* TestViewModel.swift in Sources */,
 				23300CAF291188C30053B709 /* ContentView.swift in Sources */,
 				23300CAD291188C30053B709 /* ParallelAsyncAwaitApp.swift in Sources */,
 			);
